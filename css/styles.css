@@ -69,6 +69,12 @@ body {
   background-color: #fff;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(29, 29, 29);
+    color: white;
+  }
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
