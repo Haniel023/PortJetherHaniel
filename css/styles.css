@@ -10051,6 +10051,11 @@ h3 {
   line-height: 3.1rem;
 }
 
+.imglogo{
+    width: 4rem;
+    height: 4rem;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
