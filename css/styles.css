@@ -10243,3 +10243,119 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+/* Code By Webdevtrick ( https://webdevtrick.com ) */
+*{
+  margin:0;
+  padding:0;
+}
+
+ul li {
+  list-style: none;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+#contact {
+  background: #fff;
+  position: relative;
+  width: 400px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,.1)
+}
+.js #contact {
+  position: absolute;
+  top: 3em;
+  display: none;
+  left:0; right:0;
+}
+
+.contact-h1{
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #2c3e50;
+  font-size: 32px;
+  width: 200px;
+  text-align: center;
+  margin: 30px 100px;
+}
+
+input {
+  border: 0;
+  margin: 1em 40px;
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid #2c3e50;
+  background: none;
+  font-family: 'Fontawesome', 'Source Sans Pro', sans-serif;
+  display: block;
+  color: #2c3e50;
+}
+textarea{
+  border: 0;
+  width: 300px;
+  height: 100px;
+  display: block;
+  margin-left: 40px;
+  background: none;
+  padding: 10px;
+  font-family: 'Fontawesome', 'Source Sans Pro', sans-serif;
+  border-bottom: 2px solid #2c3e50;
+  color: #2c3e50;
+}
+#submit {
+margin: 3em auto 4em;
+border: 2px solid #2c3e50;
+color: #2c3e50;
+}
+#submit:hover {
+  color: #fff;
+}
+.contact-btn{
+  background: none;
+  border: 2px solid #252525;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  margin: 15em auto;
+  padding: 1.2em 2em;
+  color: #212121;
+  font-family: inherit;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: ease all .3s;
+  display: block;
+}
+
+.contact-btn:hover{
+  background: #1abc9c;
+  color: #fff; border:
+  #7a00ff solid 2px;
+}
+.contact-btn:active{
+  background: #3333aa;
+  color: #fff;
+  border: #3333aa solid 2px;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: -10px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 3em;
+  color: #ee4444;
+}
+@media (max-width: 765px) {
+  textarea{
+      width: 250px;
+  }
+  input {
+      width: 250px;
+  }
+}
