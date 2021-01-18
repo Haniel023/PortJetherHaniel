@@ -975,7 +975,17 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+		
+		.fab{
+			margin-top: 20px;
+			font-size: 150px;
+			color: white;
+		}
 
+		.fab:hover{
+			color:rgb(0,206,209);
+		}
+		
 /* Image */
 
 	.image {
