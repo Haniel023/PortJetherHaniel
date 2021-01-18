@@ -1919,7 +1919,7 @@ input, select, textarea {
 						color: white;
 					}
 
-					#header nav ul li a:hover{
+					#header nav ul li a:hover, :active{
 						color:rgb(0,206,209)
 					}
 
@@ -2294,6 +2294,12 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+		}
+
+		.logo{
+			padding-bottom: 10px;
+			height: 80px;
+			width: 110px;
 		}
 
 /* Intro */
